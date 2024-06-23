@@ -1,0 +1,173 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+background: url(image/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.webp);
+font-family: 'Courier New', Courier, monospace; 
+margin: 25px;
+color: #873600;
+text-align: justify;
+}
+
+main
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header 
+{
+  background-color:#FEF5E7;
+  text-align: inherit;
+  padding: 10px;
+}
+
+section
+{
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+article
+{
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+footer
+{
+  display: block;
+  clear: both;
+  text-align: inherit;
+  padding: 2%;
+}
+
+.navbar ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #7D6608;
+  position: relative;
+  height: 15%;
+  overflow: fixed;
+  text-align: center;
+  border: 1px solid #FEF5E7;
+}
+
+.navbar li
+{
+  border-bottom: 1px solid #FEF5E7;
+}
+
+.navbar li a 
+{
+  display: block;
+  color: #FEF5E7;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) 
+{
+  background-color: #9A7D0A;
+  color: #FFF3C1;
+}
+
+.navbar li:last-child
+{
+  border-bottom: none;
+}
+
+#rcorners1 
+{
+  border-radius: 25px;
+  background: #FFF3C1;
+  padding: 20px;
+  width: 600px;
+  height: 250px;
+  text-align: justify;
+}
+
+a:visited
+{
+  color: #873600;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 15px;
+}
+
+a:hover
+{
+  color: black;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
+
+a:active
+{
+  color: aliceblue;
+  background-color: brown;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+div.gallery 
+{
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+div.gallery:hover 
+{
+  border: 1px solid #777;
+}
+
+div.gallery img 
+{
+  width: 100%;
+  height: auto;
+}
+
+div.desc 
+{
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive 
+{
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) 
+{
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) 
+{
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
